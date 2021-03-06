@@ -1,0 +1,25 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+         int a, aos;
+         clrscr ();
+
+  printf("Enter the side of square a=");
+  scanf("%d",&a);
+
+         aos=a*a;
+
+  printf("the value of aos is %d",aos);
+
+  getch ();
+
+}
+
+Output :
+
+Enter the side of square a=8
+the value of aos is 64
