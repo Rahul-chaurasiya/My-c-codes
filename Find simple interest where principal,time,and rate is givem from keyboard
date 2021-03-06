@@ -1,0 +1,40 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+
+{
+       int p, n ;
+       float r, si ;
+
+ printf("enter the principal :");
+ scanf("%d",&p);
+
+ printf("enter the time :");
+ scanf("%d",&n);
+
+ printf("enter the rate :");
+ scanf("%f",&r);
+
+        si = p * n * r / 100 ;
+
+ printf ( "%f" , si ) ;
+ 
+ getch ();
+
+}
+
+
+
+Output :
+
+
+
+enter the principal :3000
+
+enter the time :3
+
+enter the rate :5
+
+450.000000
