@@ -1,0 +1,30 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+            float a,b,aot,c=0.5;
+            clrscr ();
+
+  printf("\n Enter the value of a is ");
+  scanf("%f",&a);
+
+  printf("\n Enter the value of b is ");
+  scanf("%f",&b);
+
+         aot=a*b*c;
+
+  printf("the value of aot is %f",aot);
+
+  getch ();
+
+}
+
+Output :
+
+ Enter the value of a is 6
+ Enter the value of b is 4
+ 
+ the value of aot is 12.000000
