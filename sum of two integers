@@ -1,0 +1,29 @@
+
+
+ #include<stdio.h>
+
+ #include<conio.h>
+
+void main()
+
+{
+
+  int a=32,b=56;
+
+  int sum;
+
+    clrscr ();
+
+  sum=a+b;
+
+  printf("sum of a and b is %d",sum);
+  
+    getch ();
+    
+}
+
+
+
+Output :
+
+ Sum of a and b is 88
