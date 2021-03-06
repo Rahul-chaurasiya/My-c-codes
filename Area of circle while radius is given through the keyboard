@@ -1,0 +1,25 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+           int r;
+           float pi=3.14,area;
+
+    printf("enter tha radius of circle :");
+    scanf("%d",&r);
+
+           area = 3.14*r*r;
+
+    printf("\n area of circle = %f",area);
+    
+getch ();
+
+}
+
+Output : 
+
+enter tha radius of circle :6
+area of circle = 113.040001
