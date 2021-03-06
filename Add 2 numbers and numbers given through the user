@@ -1,0 +1,41 @@
+
+ #include<stdio.h>
+
+#include<conio.h>
+
+void main()
+
+{
+  //add 2 no.
+
+    int a,b,sum;
+
+    clrscr();
+
+  printf("enter the value of a \n");
+  scanf("%d",&a);
+
+  printf("enter the value of b \n");
+  scanf("%d",&b);
+
+
+    sum=a+b;
+
+  printf("the sum of a and b %d",a + b);
+
+    getch ();
+
+}
+
+
+
+Output :
+
+enter the value of a 30
+
+enter the value of b 50
+
+The sum of a and b is 80
+
+
+
