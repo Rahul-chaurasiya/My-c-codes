@@ -1,0 +1,17 @@
+# My-c-codes
+here i post my c codes
+
+ //My first step of c programming
+
+#include<stdio.h>
+main ()
+{
+  printf("welcome to the world of c programming");
+
+ 
+
+}
+
+ Output :
+
+Welcome to the world of c programming
