@@ -1,0 +1,32 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+
+              int a,b,c;
+              clrscr ();
+
+    printf("enter any no.");
+    scanf("%d",&a);
+
+        b=a;
+        b++;
+        a--;
+        c=a;
+
+printf("\n increasement value is %d",b);
+printf("\n decreased value is %d",c);
+
+getch();
+
+}
+
+Output : 
+
+ enter any no.36
+
+ increasement value is 37
+ decreased value is 35
