@@ -1,0 +1,47 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main ()
+{
+    int qty,amt,value;
+    float dis,ta;
+    
+    clrscr ();
+
+    printf("enter the quantity of item ");
+    scanf("%d",&qty);
+
+    printf("enter the value of per item ");
+    scanf("%d",&value);
+
+    amt=qty*value;
+
+    printf("your amount is %d",amt);
+    if (amt>1000)
+    {
+       printf("\n you got 10 percent discount  ");
+       dis=amt*0.1;
+       ta= amt-dis;
+       printf("\n your total amount is %f",ta);
+    }
+    else    printf("\n you do not get any discount");
+    
+    getch ();
+   
+}
+
+output 1:
+enter the quantity of item 12
+enter the value of per item 150
+
+your amount is 1800
+ you got 10 percent discount
+ your total amount is 1620.000000
+
+Output 2:
+enter the quantity of item 10
+enter the value of per item 90
+
+your amount is 9
+you do not get any discount
