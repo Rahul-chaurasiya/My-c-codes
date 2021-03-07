@@ -1,0 +1,46 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+main()
+{
+    char str1[20],str2[20];
+    int i=0,flag=0, x=0;
+
+    printf("enter the first string :");
+    gets(str1);
+
+    printf("enter the second string :");
+    gets(str2);
+
+    while (str1[i] != '\0' && str2[i] != '\0')
+    {
+        x = str1[i]-str2[i];
+        if(str1[i] != str2[i])
+       { 
+           flag=1;
+           break;
+       }
+    
+     
+       else
+       i++;
+       
+    }
+
+    if (flag==0 && str1[i]=='\0' && str2[i]=='\0')
+    printf("\n two string are equal and their difference is %d ",x);
+
+    else 
+    printf("\n two strings are not aqual and their difference is %d",x);
+
+}   
+
+output :
+
+enter the first string :R
+enter the second string :r
+
+ two strings are not aqual and their difference is -32
