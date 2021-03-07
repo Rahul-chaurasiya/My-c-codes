@@ -1,0 +1,1272 @@
+
+
+1. WHAT IS C LANGUAGE?
+
+C language is a structure/procedure oriented, middle level programming language developed at Bell Laboratories in 1972 by Dennis Ritchie.
+
+C language was invented for implementing UNIX operating system.
+
+In 1978, Dennis Ritchie and Brian Kernighan published the first edition “The C Programming Language”.
+
+Also, C language is an ANSI/ISO standard and powerful programming language for developing real time applications
+
+
+
+
+
+2. WHERE IS C PROGRAMMING LANGUAGE USED OR USES OF C LANGUAGE?
+
+C language is used to develop system applications that forms major portion of operating systems such as Windows, UNIX and Linux. Operating systems, C compiler and all UNIX application programs are written in C language. Below are some examples of uses of C language.
+
+Database systems
+
+Graphics packages
+
+Word processors
+
+Spread sheets
+
+Operating system development
+
+Compilers and Assemblers
+
+Network drivers
+
+Interpreters
+
+
+
+
+
+
+
+
+
+3. WHAT IS THE DIFFERENCE BETWEEN C AND C++?
+
+Even though C and C++ programming languages are belonging to middle level languages, both are differed in below.
+
+C is structure/procedure oriented programming language whereas C++ is object oriented programming language.
+
+C language program design is top down approach whereas C++ is using bottom up approach.
+
+Polymorphism, virtual function, inheritance, Operator overloading, namespace concepts are not available in C programming language. Whereas C++ language supports all these concepts and features.
+
+C language gives importance to functions rather than data. Whereas C++ gives importance to data rather than functions.
+
+So, data and function mapping is difficult in C. But, data and function mapping is simple in C++ that can be done using objects.
+
+C language does not support user define data types. Whereas C++ supports user define data types.
+
+Exception handling is not present in C programming language. Whereas exception handling is present in C++ language.
+
+C language allows data to freely flow around the functions. But, data and functions are bound together in C++ which does not allow data to freely flow around the functions.
+
+
+
+
+
+
+
+
+
+5. WHAT IS MEANT BY PROGRAMMING LANGUAGE AND GIVE SOME EXAMPLES?
+
+Programming language is nothing but a language designed to communicate to machines through instructions and commands.
+
+Normally machines are computers. Programs are written using some programming languages to control the behaviour of machines/computers and to make them to perform required tasks.
+
+Programming language example: Assembly language, C language, C++ language, Java, C#, .NET, Python etc
+
+
+
+
+
+
+
+
+
+6.WHAT ARE THE KEY FEATURES OR CHARACTERISTICS OF C LANGUAGE?
+
+Below are the key features or characteristics of C language.
+
+Reliability
+
+Portability
+
+Flexibility
+
+Interactivity
+
+Modularity
+
+Efficiency and Effectiveness
+
+
+
+
+
+
+
+
+
+7.WHAT IS EMBEDDED C?
+
+Embedded C:
+
+Embedded C is the extension of C programming language.
+
+Embedded C is used to develop micro controller based applications.
+
+Embedded C includes features not available in normal C like fixed-point arithmetic, named address spaces, and basic I/O hardware addressing.
+
+Cell phones, MP3 players are some example for embedded systems in which embedded C is used to program and control these devices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+8.WHICH LEVEL IS C LANGUAGE BELONGING TO?
+
+C language is belonging to middle level language. C language behaves as a bridge between machine level (low level) languages and high level languages.
+
+C language is more user friendly than machine level languages. And, C language does not support all the concepts that high level languages offer. So, C programming language is called as middle level language.
+
+
+
+
+
+
+
+
+
+
+
+9. WHAT DO YOU MEAN BY HIGH LEVEL, MIDDLE LEVEL AND LOW LEVEL LANGUAGES AND GIVE AN EXAMPLE FOR EACH?
+
+High level languages –
+
+These level languages provide almost everything that the programmer might need to do as already build into the language.
+
+Example: Java, Python
+
+Middle level languages –
+
+These languages don’t provide all the built-in functions found in high level languages, but provide all building blocks that we need to produce the result we want.
+
+Example: C, C++
+
+Low level languages –
+
+These languages provide nothing other than access to the machine’s basic instruction set.
+
+Example: Assembly language.
+
+
+
+
+
+
+
+
+
+10. WHAT IS THE DIFFERENCE BETWEEN STRUCTURED ORIENTED, OBJECT ORIENTED AND NON-STRUCTURE ORIENTED PROGRAMMING LANGUAGE?
+
+Structured oriented programming language –
+
+In this type of language, large programs are divided into small programs called functions.
+
+Prime focus is on functions and procedures that operate on data
+
+Data moves freely around the systems from one function to another
+
+Program structure follows “Top Down Approach”
+
+Example: C, Pascal, ALGOL and Modula-2
+
+Object oriented programming language –
+
+In this type of language, programs are divided into objects
+
+Prime focus is on the data that is being operated and not on the functions or procedures
+
+Data is hidden and cannot be accessed by external functions
+
+Program structure follows “Bottom UP Approach”
+
+Example: C++, JAVA and C# (C sharp)
+
+Non-structure oriented programming language –
+
+There is no specific structure for programming this language.
+
+Example: BASIC, COBOL, FORTRAN
+
+
+
+
+
+
+
+
+
+11.WHAT IS COMPILER?
+
+Compiler is a program that converts human readable code into machine readable code. This process is called compilation.
+
+
+
+
+
+
+
+
+
+
+
+12.WHAT IS THE DIFFERENCE BETWEEN ASSEMBLER, COMPILER AND INTERPRETER?
+
+Assembler is a program that converts assembly level language (low level language) into machine level language.
+
+Compiler compiles entire C source code into machine code. Whereas, interpreters converts source code into intermediate code and then this intermediate code is executed line by line.
+
+
+
+
+
+
+
+
+
+
+
+13.WHAT IS PRINTF()?
+
+printf() is an inbuilt library function in C which is available in C library by default. This function is declared and related macros are defined in “stdio.h” header file.
+
+
+
+printf() function is used to print the “character, string, float, integer, octal and hexadecimal values” onto the output screen.
+
+
+
+
+
+
+
+
+
+
+
+14. WHAT IS SCANF()?
+
+scanf() function is an inbuilt library function in C which is available in C library by default. This function is declared and related macros are defined in “stdio.h” header file.
+
+
+
+scanf() function is used to read character, string, numeric data from keyboard.
+
+
+
+
+
+
+
+
+
+
+
+15. WHAT IS MEANT BY PROTOCOL?
+
+Protocol is nothing but a set of rules to be followed by a programmer.
+
+
+
+
+
+
+
+
+
+
+
+ 15.EXECUTION OF A C PROGRAM STARTS FROM WHICH FUNCTION?
+
+Always, execution of a C program starts from main() function
+
+
+
+
+
+
+
+
+
+
+
+16. WHAT ARE ALL THE SECTIONS THAT A C PROGRAM MAY/MUST HAVE?
+
+There are many sections in a C program structure. They are,
+
+
+
+Documentation section
+
+Link Section
+
+Definition Section
+
+Global declaration section
+
+Function prototype declaration section
+
+Main function
+
+User defined function section
+
+main() function section is the important section in a C program as program execution starts from main() function only in C language. A C program may not have all other sections except main() function.
+
+
+
+
+
+
+
+
+
+
+
+17.WHAT IS IDE?
+
+IDE is nothing but Integrated Development Environment. IDE is a tool that provides user interface with compilers to create, compile and execute C programs.
+
+
+
+Example: Turbo C++, Borland C++ and DevC++. These provide Integrated Development Environment with compiler for both C and C++ programming language.
+
+
+
+
+
+
+
+
+
+
+
+18. LIST OUT SOME OF C COMPILERS.
+
+There are so many compilers available in market for Windows operating system and UNIX. We are listing some of them here for your reference.
+
+
+
+AMPC
+
+CCS C Compiler
+
+ch
+
+clang
+
+Cygwin
+
+Digital mars
+
+GCC compiler
+
+MikroC Compiler
+
+Portable C Compiler, Power C, QuickC, Ritchie C Compiler, Small-C
+
+
+
+
+
+
+
+
+
+19.WHAT IS HEADER FILE IN C LANGUAGE?
+
+Header file is a file that contains function declaration and macro definition for C in-built library functions.
+
+
+
+All C standard library functions are declared in many header files which are saved as file_name.h.
+
+We are including these header files in our C program using “#include <file_name.h>” command to make use of the functions those are declared in the header files.
+
+When we include header files in our C program using “#include <filename.h>” command, all C code of the header files are included in C program. Then, this C program is compiled by compiler and executed.
+
+
+
+
+
+
+
+
+
+20. IS C LANGUAGE CASE SENSITIVE?
+
+Yes. C language instructions/commands/functions and everything used in C program are case sensitive.
+
+
+
+
+
+
+
+
+
+
+
+21.WHAT IS MACRO? WHY DO WE USE MACRO?
+
+Macro is a name which is given to a value or to a piece of code/block in a program. Instead of using the value, we can use macro which will replace the value in a program.
+
+
+
+The reason for using macro is, consider below example.
+
+You are using a person’s age as 50 in many places in your program. If you use direct value in all the places in your program, it is very difficult to change the age value in future if you want to change it to 60. If you use macro in your program, it is very simple to replace the value and we can change in only one place which will change the value in all places in your program.
+
+Syntax: #define <MACRO_NAME> VALUE
+
+Example:
+
+Original declaration – #define AGE 50
+
+Modified declaration – #define AGE 60
+
+
+
+
+
+
+
+
+
+
+
+22.WHAT IS DATA TYPE IN C?
+
+Data types in C language are defined as the data storage format that a variable can store a data to perform a specific operation. Data types are used to define a variable before to use in a program. Size of variable, constant and array are determined by data types.
+
+
+
+
+
+
+
+
+
+
+
+23. WHAT IS THE DIFFERENCE BETWEEN INT, CHAR, FLOAT & DOUBLE DATA TYPES?
+
+Integer data type allows a variable to store numeric values. The storage size of int data type is 2 or 4 or 8 byte. It varies depend upon the processor in the CPU.
+
+
+
+Character data type allows a variable to store only one character. Storage size of character data type is 1.
+
+
+
+Float data type allows a variable to store decimal values. Storage size of float data type is 4. This also varies depend upon the processor in the CP.
+
+
+
+Double data type is also same as float data type which allows up-to 10 digits after decimal.
+
+
+
+
+
+
+
+
+
+
+
+24. WHAT IS THE USE OF SIZEOF() FUNCTION IN C?
+
+sizeof() function is used to find the memory space allocated for each data type in C.
+
+
+
+
+
+
+
+
+
+
+
+25.WHAT IS MODIFIER IN C?
+
+The amount of memory space to be allocated for a variable is derived by modifiers. Modifiers are prefixed with basic data types to modify (either increase or decrease) the amount of storage space allocated to a variable.
+
+
+
+For example, storage space for int data type is 4 byte for 32 bit processor. We can increase the range by using long int which is 8 byte. We can decrease the range by using short int which is 2 byte.
+
+
+
+
+
+
+
+
+
+
+
+26.WHAT ARE DIFFERENT TYPES OF MODIFIERS IN C?
+
+There are 5 modifiers available in C language. They are,
+
+
+
+short
+
+long
+
+signed
+
+unsigned
+
+long long
+
+
+
+
+
+
+
+
+
+ 27.WHAT IS ENUM IN C?
+
+Enumeration is a data type that consists of named integer constants as a list. It start with 0 (zero) by default and value is incremented by 1 for the sequential identifiers in the list.
+
+
+
+
+
+
+
+
+
+
+
+ 28.WHAT IS VOID IN C?
+
+Void is an empty data type that has no value. We use void data type in functions when we don’t want to return any value to the calling function.
+
+
+
+Example:
+
+
+
+void sum (int a, int b); – This function won’t return any value to the calling function.
+
+int sum (int a, int b); – This function will return value to the calling function.
+
+
+
+We use void data type in pointer like “void *p”. It means, pointer “p” is neither pointing to int data type nor char data type. It acts as generic pointer. We are using void pointer when we are not sure on the data type that this pointer will point to. We can use void pointer to refer either integer data or char data. But, this void pointer should not be dereferenced without explicit type casting.
+
+
+
+We use void in functions as “int function_name (void)”. Here void means, this function does not pass any argument.
+
+
+
+
+
+
+
+
+
+
+
+29.WHAT IS TOKEN IN C?
+
+C tokens are the basic buildings blocks in C language which are constructed together to write a C program. Each and every smallest individual unit in a C program are known as C tokens.
+
+
+
+
+
+
+
+
+
+
+
+30.WHAT ARE THE TYPES OF C TOKENS?
+
+C tokens are of six types. They are,
+
+
+
+Keywords (eg: int, while),
+
+Identifiers (eg: main, total),
+
+Constants (eg: 10, 20),
+
+Strings (eg: “total”, “hello”),
+
+Special symbols (eg: (), {}),
+
+Operators (eg: +, /,-,*)
+
+
+
+
+
+
+
+
+
+31.WHAT IS IDENTIFIER IN C?
+
+Each program elements in a C program are given a name called identifiers. Names given to identify Variables, functions and arrays are examples for identifiers. Example: x is a name given to integer variable in above program
+
+
+
+
+
+
+
+
+
+
+
+32.WHAT IS KEYWORD IN C?
+
+Keywords are pre-defined words in a C compiler. Each keyword is meant to perform a specific function in a C program. Since keywords are referred names for compiler, they can’t be used as variable name.
+
+
+
+
+
+
+
+
+
+
+
+33. LIST OUT SOME KEYWORDS AVAILABLE IN C LANGUAGE.
+
+Below are some of keywords that C language offers. auto, double, int, struct, break, else, long, switch, case, enum, register, typedef, char, extern, return, union, const, float, short, unsigned, continue, for, signed, void, default, goto, sizeof, volatile, do, , if, static, while
+
+
+
+
+
+
+
+
+
+
+
+ 34.WHAT IS CONSTANT IN C?
+
+Constants refer to fixed values. They are also called as literals. C Constants are also like normal variables. But, only difference is, constant values can’t be modified by the program once they are defined. Constants may be belonging to any of the data type.
+
+
+
+
+
+
+
+
+
+
+
+35.WHAT ARE THE TYPES OF CONSTANTS IN C?
+
+Below are the types of constants in C.
+
+
+
+Integer constants
+
+Real or Floating point constants
+
+Octal & Hexadecimal constants
+
+Character constants
+
+String constants
+
+Backslash character constants
+
+
+
+
+
+
+
+
+
+36.WHAT IS VARIABLE IN C?
+
+C variable is a named location in a memory where a program can manipulate the data. This location is used to hold the value of the variable.
+
+
+
+The value of the C variable may get change in the program.
+
+
+
+C variable might be belonging to any of the data type like int, float, char etc.
+
+
+
+
+
+
+
+
+
+37. WHAT IS THE DIFFERENCE BETWEEN CONSTANT AND VARIABLE IN C?
+
+Constant values can’t be modified by the program once it is declared. But, variable values can be modified by the program.
+
+
+
+
+
+
+
+
+
+
+
+38.WHAT IS THE DIFFERENCE BETWEEN VARIABLE DECLARATION AND VARIABLE DEFINITION IN C?
+
+Variable declaration tells the compiler about data type and size of the variable. Whereas, variable definition allocates memory to the variable
+
+
+
+Variable can be declared many times in a program. But, definition can happen only one time for a variable in a program.
+
+
+
+Variable declaration is for assignment of properties and identification to a variable. Whereas, variable definition is for assignments of storage space to a variable
+
+
+
+
+
+
+
+
+
+
+
+39.WHAT ARE THE DIFFERENT TYPES OF VARIABLE IN C?
+
+Local variable, Global variable , static variable , enviromental variable , extern variable.
+
+
+
+
+
+
+
+
+
+
+
+40. WHAT IS LOCAL VARIABLE IN C?
+
+The variables which are having scope/life only within the function are called local variables. These variables are declared within the function and can’t be accessed outside the function.
+
+
+
+
+
+
+
+
+
+
+
+41.WHAT IS GLOBAL VARIABLE IN C?
+
+The variables which are having scope/life throughout the program are called global variables. Global variable is defined outside the main function. So, this variable is visible to main function and all other sub functions.
+
+
+
+
+
+
+
+
+
+
+
+42.WHAT IS ENVIRONMENT VARIABLE IN C?
+
+Environment variable is a variable that will be available for all C applications and C programs. Once environment variables are exported, we can access them from anywhere in a C program without declaring and initializing in an application or C program.
+
+
+
+
+
+
+
+
+
+
+
+43. WHAT IS OPERATOR IN C?
+
+The symbols which are used to perform logical and mathematical operations in a C program are called C operators.
+
+
+
+
+
+These C operators join individual constants and variables to form expressions. Operators, functions, constants and variables are combined together to form expressions.
+
+
+
+
+
+
+
+
+
+
+
+44.WHAT ARE THE DIFFERENT TYPES OF OPERATORS IN C?
+
+C language offers many types of operators. They are,
+
+
+
+Arithmetic operators
+
+Assignment operators
+
+Relational operators
+
+Logical operators
+
+Bit wise operators
+
+Conditional operators (ternary operators)
+
+Increment/decrement operators
+
+Special operators
+
+
+
+
+
+
+
+
+
+45.WHAT IS THE SYNTAX FOR TERNARY OPERATOR IN C?
+
+Ternary operator is same as if else control statement in C.
+
+
+
+Syntax : (Condition? true_value: false_value);
+
+
+
+Example: (A > 100? 0: 1);
+
+
+
+
+
+
+
+
+
+
+
+46.WHAT IS ARITHMETIC OPERATOR IN C?
+
+C Arithmetic operators are used to perform mathematical calculations like addition, subtraction, multiplication, division and modulus in C programs.
+
+
+
+Arithmetic operators are +, -, *, /, %
+
+
+
+
+
+
+
+
+
+
+
+47.WHAT IS ASSIGNMENT OPERATOR IN C?
+
+Assignment operators are used to assign the values to the variables.
+
+
+
+Assignment operators are =, +=, -=, /+, %= etc.
+
+
+
+
+
+
+
+
+
+
+
+48.WHAT IS THE RELATIONAL OPERATOR IN C?
+
+Relational operators are used to find the relation between two variables. i.e. to compare the values of two variables in a C program.
+
+
+
+Relational operators are >, <, >=, <=, ==, !=
+
+
+
+
+
+
+
+
+
+
+
+49.WHAT IS THE LOGICAL OPERATOR IN C?
+
+Logical operators are used to perform logical operations on the given expressions.
+
+
+
+There are 3 logical operators in C language. They are,
+
+
+
+logical AND (&&)
+
+logical OR (||)
+
+logical NOT (!)
+
+
+
+
+
+
+
+
+
+50. WHAT IS BITWISE OPERATOR IN C?
+
+Bitwise operators are used to perform bit operations. Decimal values are converted into binary values which are the sequence of bits and bit wise operators work on these bits.
+
+
+
+Bit wise operators in C language are & (bitwise AND), | (bitwise OR), ~ (bitwise OR), ^ (XOR), << (left shift) and >> (right shift).
+
+
+
+
+
+
+
+
+
+
+
+51.WHAT ARE ALL DECISION CONTROL STATEMENTS IN C?
+
+There are 3 types of decision making control statements in C language. They are,
+
+
+
+if statements
+
+if else statements
+
+nested if statements
+
+
+
+
+
+
+
+
+
+52.WHAT ARE ALL LOOP CONTROL STATEMENTS IN C?
+
+Loop control statements in C are used to perform looping operations until the given condition is true. Control comes out of the loop statements once condition becomes false.
+
+
+
+There are 3 types of loop control statements in C language. They are,
+
+
+
+for
+
+while
+
+do-while
+
+
+
+
+
+
+
+
+
+53.WHAT IS THE DIFFERENCE BETWEEN WHILE AND DO-WHILE LOOPS IN C?
+
+While loop is executed only when given condition is true.
+
+
+
+Whereas, do-while loop is executed for first time irrespective of the condition. After executing while loop for first time, then condition is checked.
+
+
+
+
+
+
+
+
+
+
+
+54.WHAT IS THE DIFFERENCE BETWEEN SINGLE EQUAL “=” AND DOUBLE EQUAL “==” OPERATORS IN C?
+
+Single equal is an assignment operator used to assign the values to the variables.
+
+
+
+But, double equal is relational operator used to compare two variable values whether they are equal are not.
+
+
+
+
+
+
+
+
+
+
+
+55.WHAT IS THE DIFFERENCE BETWEEN PRE INCREMENT OPERATOR AND POST INCREMENT OPERATOR IN C?
+
+Pre increment operator is used to increment variable value by 1 before assigning the value to the variable.
+
+
+
+Post increment operator is used to increment variable value by 1 after assigning the value to the variable.
+
+
+
+
+
+
+
+
+
+
+
+56. WHAT IS THE DIFFERENCE BETWEEN PRE DECREMENT OPERATOR AND POST DECREMENT OPERATOR?
+
+Pre decrement operator is used to decrement variable value by 1 before assigning the value to the variable.
+
+Post decrement operator is used to decrement variable value by 1 after assigning the value to the variable.
+
+
+
+
+
+
+
+
+
+57.WHAT IS “&” AND “*” OPERATORS IN C?
+
+“*” Operator is used as pointer to a variable. Example: * a where * is pointer to the variable a.
+
+
+
+& operator is used to get the address of the variable. Example: &a will give address of a.
+
+
+
+
+
+
+
+
+
+
+
+58. WHAT WILL HAPPEN IF BREAK STATEMENT IS NOT USED IN SWITCH CASE IN C?
+
+Switch case statements are used to execute only specific case statements based on the switch expression.
+
+
+
+If we do not use break statement at the end of each case, program will execute all consecutive case statements until it finds next break statement or till the end of switch case block.
+
+
+
+
+
+
+
+
+
+
+
+59.WHY IS DEFAULT STATEMENT USED IN SWITCH CASE IN C?
+
+Switch case statements are used to execute only specific case statements based on the switch expression. If switch expression does not match with any case, default statements are executed by the program.
+
+
+
+
+
+
+
+
+
+
+
+60.WHAT IS THE USE OF “GOTO” STATEMENT?
+
+goto statement is used to transfer the normal flow of a program to the specified label in the program. Below is the syntax for goto statement in C.
+
+
+
+{
+
+…….
+
+goto label;
+
+…….
+
+…….
+
+LABEL:
+
+statements;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 61.WHAT VALUE WILL BE ASSIGNED TO THE VARIABLE X IF A = 10, B = 20, C = 30, D = 40 IN BELOW EXPRESSION?
+
+X = a/b+c*d-c;
+
+
+
+The above arithmetic operation is performed based on the precedence of the operators.
+
+In above mentioned expression, c*d will be performed first. Then, a/b, then (c*d)-c, then (a/b) + ((c*d)-c).
+
+Please check the operator precedence table to know the priority and associativity of the C operators.
+
+Output of the above expression is 1170.
+
+
+
+
+
+
+
+
+
+62.WHAT VALUE IS ASSIGNED TO THE BELOW VARIABLES?
+
+int X1 = 13/3;
+
+int X2 = 13%3;
+
+
+
+The value of X1 is 4
+
+The value of X2 is 1
+
+
+
+
+
+
+
+
+
+63.WHAT IS THE DIFFERENCE BETWEEN AUTO VARIABLE AND REGISTER VARIABLE IN C?
+
+Storage class of all variables are auto by default unless we specify a variable is register or static or extern in C program.
+
+
+
+Both auto variable and register variable are local variables. Register variables are stored in register memory. Whereas, auto variables are stored in main CPU memory.
+
+Register variables will be accessed very faster than the normal/auto variables since they are stored in register memory rather than main memory.
+
+But, only limited variables can be used as register since register size is very low. (16 bits, 32 bits or 64 bits)
+
+
+
+
+
+
+
+
+
+64.WHAT IS THE DIFFERENCE BETWEEN AUTO VARIABLE AND STATIC VARIABLE IN C?
+
+Both auto and static variables are local variables.
+
+
+
+Static variables can retain the value of the variable between different function calls.
+
+
+
+But, scope of auto variable is within the function only. It can’t retain the value of the variable between different function calls.
+
+
+
