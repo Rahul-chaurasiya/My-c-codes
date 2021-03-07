@@ -1,0 +1,42 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int bs,ts,hra,da,a,b,salary;
+    printf("enter the basic salary : ");
+    scanf("%d",&bs);
+    if (bs<1500)
+    {
+      hra=bs*0.10;
+      da=bs*0.90;
+    }
+    
+    else if (bs>=1500)
+    {
+      hra=500;
+      da=bs*0.98;
+    }
+    
+   ts=bs+hra+da;
+   printf("gross salary of employee is :%d",ts);
+
+
+    return 0;
+}
+
+
+output 1: 
+enter the basic salary : 1400
+gross salary of employee is :2800
+
+output 2 :
+enter the basic salary : 1500
+gross salary of employee is :3469
+
+output 3 :
+enter the basic salary : 1600
+gross salary of employee is :3667
+
