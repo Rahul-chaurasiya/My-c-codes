@@ -1,0 +1,25 @@
+
+
+
+#include<stdio.h>
+main()
+{
+
+    int i=1;
+
+    do
+    {
+        printf("\n rahul sir");
+        i++;
+    } while (i<=5);
+    
+
+}
+
+output :
+ rahul sir
+ rahul sir
+ rahul sir
+ rahul sir
+ rahul sir
+ 
