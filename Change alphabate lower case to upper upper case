@@ -1,0 +1,25 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+               char c,x;
+               clrscr();
+
+    printf("enter any lower case char :");
+    scanf("%c",&c);
+
+    x=c-32;
+
+    printf("upper case : %c",x);
+    
+    getch();
+    
+}
+
+Output : 
+enter any lower case char :a
+upper case : A
