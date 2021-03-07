@@ -1,0 +1,63 @@
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+    int a[100],sum=0,i,n;
+    int evencount=0,oddcount=0,sum1=0,sum2=0;
+    
+    printf("enter the size of array ");
+    scanf(" %d",&n);
+    printf("enter the numbers ");
+    for(i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+     for(i=0;i<n;i++)
+{
+         sum=sum+a[i];
+}
+    printf("sum of all numbers is  %d\n",sum);
+     for (i=0;i<n;i++)
+{
+     if (a[i]%2 == 0)
+    { evencount++;
+         sum1=sum1+a[i];    }
+
+     if (a[i]%2 != 0)
+    { oddcount++;
+        sum2=sum2+a[i];      }
+}
+     printf("\n the sum of all even numbers is %d",sum1);
+     printf("\n the sum of all odd numbers is %d",sum2);
+     printf("\n total even array elements : %d",evencount);
+     printf("\n total odd array elements : %d",oddcount);
+
+
+    return 0;
+
+}
+
+output :
+
+enter the size of array 9
+enter the numbers 23
+45
+22
+12
+34
+23
+7
+4
+5
+sum of all numbers is  175
+
+ the sum of all even numbers is 72
+ the sum of all odd numbers is 103
+ total even array elements : 4
+ total odd array elements : 5
+
