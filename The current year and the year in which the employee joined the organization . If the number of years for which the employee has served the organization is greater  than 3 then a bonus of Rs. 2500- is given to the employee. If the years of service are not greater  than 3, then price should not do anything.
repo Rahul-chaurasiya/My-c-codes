@@ -1,0 +1,38 @@
+
+
+ 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ 
+
+     int bonus, cur_year, year_joining, year_of_ser ;
+     clrscr();
+
+printf("Enter Current Year :" );  
+scanf("%d", &cur_year);  
+
+printf("Enter Year of Joining :" );
+scanf("%d", &year_joining );  
+
+     year_of_ser = cur_year - year_joining; 
+
+ if (year_of_ser > 3) 
+ {  
+   bonus = 2500 ;
+   printf ("Bonus = Rs. %d", bonus);
+ } 
+
+ getch (); 
+
+}
+
+Output 1:
+Enter Current Year :2011
+Enter Year of Joining :2002
+Bonus = Rs. 2500
+
+Output 2:
+Enter Current Year:2017
+Enter Year of Joining :2015
