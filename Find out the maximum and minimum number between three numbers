@@ -1,0 +1,36 @@
+
+
+ 
+
+#include<stdio.h>
+#include<conio.h>
+float main()
+{
+
+          int a,b,c;
+          clrscr ();
+
+printf("the value of a, b ,c is \n");
+scanf("%d %d %d",&a,&b,&c);
+
+if (a>b)   
+printf("max no. is %d",a);
+
+else if (b>c )
+printf("max no. is %d",b);
+
+else if (c>a)
+printf("max no. is %d",c);
+
+getch ();
+
+}
+
+Output : 
+
+the value of a, b ,c is
+43
+45
+67
+
+max no. is 67
