@@ -1,0 +1,73 @@
+
+#include<stdio.h>
+main()
+{
+    int a[100][100],b[100][100],sum[100][100],i,count,j;
+
+    printf("enter the size of an array :\n");
+    scanf("%d",&count);
+
+    printf("enter the elements of 1st array :\n");
+    for ( i = 0; i < count; i++)
+    {
+       for ( j = 0; j < count; j++)
+       {
+           scanf("%d",&a[i][j]);
+       }
+       
+    }
+
+
+    
+    printf("enter the elements of 2st array :\n");
+    for ( i = 0; i < count; i++)
+    {
+       for ( j = 0; j < count; j++)
+       {
+           scanf("%d",&b[i][j]);
+       }
+       
+    }
+     
+     
+     printf(" sum of yr matrix is :\n");
+    for ( i = 0; i < count; i++)
+    {
+       for ( j = 0; j < count; j++)
+       {
+           sum[i][j]=a[i][j] + b[i][j];
+       }
+       
+    }
+
+    
+    for ( i = 0; i < count; i++)
+    {
+       for ( j = 0; j < count; j++)
+       {
+           printf(" %d",sum[i][j]);
+       }
+       printf("\n");
+    }
+     
+
+
+
+}
+
+output :
+enter the size of an array :
+2
+enter the elements of 1st array :
+1
+2
+3
+1
+enter the elements of 2st array :
+1
+2
+3
+1
+ sum of yr matrix is :
+ 2 4
+ 6 2
