@@ -1,0 +1,38 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+           int year;
+           clrscr();
+
+    printf("enter year :");
+    scanf("%d",&year);
+
+    if ((year%400)==0)
+    printf("%d is leap year");
+
+    else if ((year%100)==0)
+    printf("%d it is not a leap year");
+
+    else if ((year%4)==0)
+    printf("%d is leap year");
+
+    else
+    printf("%d is not a leap year");
+
+    getch();
+    
+}
+
+Output 1 :
+enter year :2016
+2016 is leap year
+
+Output 2:
+enter year :2011
+2011 is not a leap year
+
