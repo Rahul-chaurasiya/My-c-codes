@@ -1,0 +1,35 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+main()
+{
+  char source[20],target[20];
+  int l=0;
+  
+  printf("enter yr string :");
+  gets(source);
+  
+  printf("yr string is :");
+  puts(source);
+
+  l= strlen(source);
+  printf("length = %d",l);
+
+  strcpy(target,source);
+
+  printf("\n\nsource string %s",source);
+  printf("\ntarget string %s",target);
+
+
+}
+
+output :
+
+enter yr string :rahul sir
+yr string is :rahul sir
+length = 9
+
+source string rahul sir
+target string rahul sir
