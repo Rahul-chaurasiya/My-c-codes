@@ -1,0 +1,35 @@
+
+
+ 
+
+
+
+#include<stdio.h> 
+#include<conio.h>
+int main() 
+{ 
+
+           char ch; 
+           clrscr ();
+
+ printf("Enter any character: ");
+ scanf("%c", &ch); 
+
+ if(ch >= 'A' && ch <= 'Z') 
+ printf("'%c' is uppercase alphabet.", ch);
+ 
+ else 
+ printf("'%c' is lowercase alphabet.", ch);
+
+ getch ();
+
+}
+
+Output 1:
+Enter any character: r
+'r' is lowercase alphabet.
+
+Output 2:
+Enter any character: R
+'R' is uppercase alphabet.
+
