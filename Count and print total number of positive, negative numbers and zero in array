@@ -1,0 +1,60 @@
+
+
+#include<stdio.h>
+main()
+{
+  int   a[100],n,i,size,posi,zcount=0,pcount=0,ncount=0;
+
+  printf("enter the size of an array ");
+  scanf("%d",&n);
+
+  printf("enter the elements of array :\n");
+  for ( i = 0; i < n; i++)
+  {
+    scanf("%d",&a[i]);
+  }
+  
+  for ( i = 0; i < n; i++)
+  {
+      if (a[i]==0)
+      {
+          zcount=zcount+1;
+      }
+
+      else if (a[i]<0)
+      {
+         ncount=ncount+1;
+      }
+
+      else
+      {
+          pcount=pcount +1;
+      }
+      
+  }
+  
+ printf("there are %d zero numbers in the array \n ",zcount ); 
+ printf("there are %d positive numbers in the array \n ",pcount );
+ printf("there are %d negative numbers in the array \n ",ncount );
+
+
+ return 0;
+
+}
+
+output :
+enter the size of an array 9
+enter the elements of array :
+2
+4
+0
+0
+5
+-4
+-6
+-9
+7
+
+ there are 2 zero numbers in the array 
+ there are 4 positive numbers in the array 
+ there are 3 negative numbers in the array 
