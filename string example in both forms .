@@ -1,0 +1,18 @@
+
+ 
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  char a[6]= {'r','a','h','u','l','\0'};
+  char b[5] = "IIPS";
+  
+  printf("student name %s",a);
+  printf(" \nhe is from %s",b);
+
+
+}
+
+student name rahul 
+he is from IIPS  
