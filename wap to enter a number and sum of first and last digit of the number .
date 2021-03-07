@@ -1,0 +1,28 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+
+  int a,b,n,c,sum=0;
+  
+  printf("enter the number ");
+  scanf("%d",&n);
+
+  a=n%10;
+  while(n>9)
+  {
+  n=n/10;
+  }
+  b=n%10;
+  sum=a+b;
+  printf("sum = %d",sum);
+
+
+
+}
+
+output :
+enter the number 45678
+sum = 12
