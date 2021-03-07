@@ -1,0 +1,21 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  char a[20],target[20];
+  
+  printf("enter yr string :\n");
+  gets(a);
+  puts(a);
+
+}
+
+output :
+
+enter yr string :
+rahul chaurasiya
+rahul chaurasiya
+
