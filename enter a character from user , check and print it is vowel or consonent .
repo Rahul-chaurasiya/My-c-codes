@@ -1,0 +1,35 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+    int lower ,upper;
+    char ch;
+    
+    printf("enter any character ");
+    scanf(" %c",&ch);
+
+    lower=(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u');
+
+    upper=(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U');
+
+    if ( lower||upper )
+    printf("\nit is a vowel");
+
+    else
+    printf("\nit is consonent");
+
+       
+}
+
+output 1 :
+enter any character a
+
+it is a vowel
+
+
+output 2 :
+enter any character R
+
+it is consonent
