@@ -1,0 +1,23 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{   
+    char a[20];
+    int i=0;
+
+    printf("enter your string ");
+    scanf("%s",a);
+
+   while(i<=20)
+   i++;
+
+  printf("your string is %s",a);
+
+}
+
+output :
+enter your string rahul
+your string is rahul
