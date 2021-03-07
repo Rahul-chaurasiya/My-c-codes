@@ -1,0 +1,15 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{   
+    char a[5]={'i','i','p','s'};
+
+
+    printf("%s",a);
+
+}
+
+output :
+iips
