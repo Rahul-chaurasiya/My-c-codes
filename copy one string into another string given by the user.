@@ -1,0 +1,28 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  char source[20],target[20];
+  int i=0;
+  printf ("enter the string :\n");
+  scanf("%s",source);
+
+  while(source[i] != '\0')
+  {
+    target[i]=source[i];
+    i++;
+  }
+    target[i]='\0';
+  
+  printf("source string %s",source);
+  printf("\ntarget string %s",target);
+  
+
+}
+
+enter the string :
+rahul
+source string rahul
+target string rahul
