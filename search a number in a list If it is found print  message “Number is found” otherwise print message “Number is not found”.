@@ -1,0 +1,71 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+           int a[100],i,n,number ,c;
+
+ printf("enter the size of an array ");
+ scanf("%d",&n);
+
+        for(i=0;i<n;i++)
+         { 
+               printf("enter the number ");
+               scanf("%d",&a[i]);
+         }
+         
+          for(i=0;i<n;i++)
+          { 
+                 printf("\nvalue of array is %d",a[i]);
+          } 
+          
+  printf("\nfind no.");
+  scanf("%d",&number );
+
+         for(i=0;i<n;i++)
+         {
+                if(a[i]==number)
+                    { 
+                         printf("\nno. found ");
+                         break;
+                    } 
+         }
+
+                  if(i==n)
+                   printf("\nno not found ");
+
+getch ();
+
+}
+
+Output 1 :
+enter the size of an array 5
+enter the number 23
+enter the number 45
+enter the number 67
+enter the number 54
+enter the number 98
+
+value of array is 23
+value of array is 45
+value of array is 67
+value of array is 54
+value of array is 98
+
+find no.45
+no. found
+
+Output 2:
+enter the size of an array 3
+enter the number 34
+enter the number 56
+enter the number 65
+
+value of array is 34
+value of array is 56
+value of array is 65
+
+find no.8
+no not found
+
