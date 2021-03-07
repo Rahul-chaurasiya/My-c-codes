@@ -1,0 +1,35 @@
+
+S= 1*2 + 2*3 + 3*4 + ……..+ n * (n+1)
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main(int argc, char const *argv[])
+{
+  int x,n,i;
+  float m,c,y,sum=0; 
+
+  printf("enter the value of  n :");
+  scanf(" %d",&n);
+
+  
+  for ( i = 1; i <= n; i++)
+  {
+    y=i*(i+1);
+    printf(" %f",y);
+    sum=sum+y;
+  }
+
+    m=sum;
+  printf("\nsum of series = %f",m);
+  return 0;
+
+
+}
+
+output :
+
+enter the value of  n :8
+ 2.000000 6.000000 12.000000 20.000000 30.000000 42.000000 56.000000 72.000000
+sum of series = 240.000000
