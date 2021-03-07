@@ -1,0 +1,50 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int i,odd,even,n,sum1=0,sum2=0;
+   
+   printf("enter the value of n :");
+   scanf("%d",&n);
+   
+
+   printf("\neven no. are\n ");
+   for(i=0;i<=n;i++)
+   {
+     if(i%2==0)
+    {
+     
+     sum1=sum1+i;
+     printf(" %d",i);
+    }
+   }
+     printf("\nsum of all even no. is %d",sum1);
+    
+  
+    
+   printf("\n\nodd no. are \n");
+   for(i=1;i<=n;i++)
+   {
+     if(i%2!=0)
+    {
+    
+     sum2=sum2+i;
+      printf(" %d",i);
+    }
+   }
+     printf("\nsum of all odd no. is %d",sum2);
+
+}
+
+output :
+enter the value of n :15
+
+even no. are
+  0 2 4 6 8 10 12 14     
+sum of all even no. is 56
+
+odd no. are 
+ 1 3 5 7 9 11 13 15
+sum of all odd no. is 64
