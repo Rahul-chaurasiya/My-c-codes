@@ -1,0 +1,34 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+           float m,cm,km;
+           double feet,inch;
+
+    printf("enter distance in km");
+    scanf("%f",&km);
+
+    m=km*1000;
+    feet=km*3280.83;
+    inch=km*39370.0787;
+    cm=km*100000;
+
+    printf("distance in m :%f\n",m);
+    printf("distance in feet :%lf\n",feet);
+    printf("distance in inch :%lf\n",inch);
+    printf("distance in cm :%f\n",cm);
+
+    getch();
+
+}
+
+
+Output :
+enter distance in km 34
+distance in m :34000.000000
+distance in feet :111548.220000
+distance in inch :1338582.675800
+distance in cm :3400000.000000
+
