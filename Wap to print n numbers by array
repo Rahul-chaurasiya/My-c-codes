@@ -1,0 +1,47 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+ main ()
+{
+
+        int a[100],i,n;
+
+  printf("enter the size of an array :");
+  scanf("%d",&n);
+
+printf("enter the elements of array :\n ");
+    for (i=0;i<n;i++)
+  { 
+      scanf("%d",&a[i]);
+  }
+
+ printf("\nyour array is :");
+    for (i=0;i<n;i++)
+   {
+      printf("\n%d",a[i]);
+   }
+
+getch ();
+
+}
+
+Output : 
+enter the size of an array :6
+
+enter the elements of array :
+23
+34
+43
+23
+87
+67
+
+your array is :
+23
+34
+43
+23
+87
+67
