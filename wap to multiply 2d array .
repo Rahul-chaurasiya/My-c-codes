@@ -1,0 +1,92 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+   int a[100][100],i,j,k,n,c[100][100],add[100][100],b[100][100];
+
+   printf("enter the size of an array :\n");
+   scanf("%d",&n);
+
+   printf("enter the 1st array elements :\n");
+   for ( i = 0; i < n; i++)
+   {
+          for ( j = 0; j < n; j++)
+          {
+              scanf("%d",&a[i][j]);
+          }
+   }
+
+
+    printf("enter the 2nd array elements :\n");
+   for ( i = 0; i < n; i++)
+   {
+          for ( j = 0; j < n; j++)
+          {
+              scanf("%d",&b[i][j]);
+          }
+
+   }
+
+  
+     for ( i = 0; i < n; i++)
+   {
+          for ( j = 0; j < n; j++)
+          {   add[i][j]=0;
+
+             for ( k = 0; k < n; k++)
+             {
+                 add[i][j]=add[i][j]+a[i][k]*b[k][j];
+                 c[i][j]=add[i][j];
+             }
+             
+            
+          }
+          
+   }
+  
+
+
+      for ( i = 0; i < n; i++)
+   {
+          for ( j = 0; j < n; j++)
+          {
+              printf(" %d",c[i][j]);
+          }
+          printf("\n");
+   }
+
+
+
+
+}
+
+output :
+
+enter the size of an array :
+3
+enter the 1st array elements :
+1
+2
+3
+1
+2
+3
+1
+2
+3
+enter the 2nd array elements :
+1
+2
+3
+1
+2
+3
+1
+2
+3
+ 6 12 18
+ 6 12 18
+ 6 12 18
+
