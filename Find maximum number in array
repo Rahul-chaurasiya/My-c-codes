@@ -1,0 +1,43 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main() 
+{
+
+        int ary[5],i;
+
+printf("Enter the five array elements : ");
+      for(i=0; i<5; i++)
+    {
+         scanf("%d",&ary[i]);
+    }
+
+     for(i=1; i<5; i++)
+    {
+              if (ary[0]<ary[i])
+              ary[0]=ary[i];
+    }  
+
+  printf("maximum value is %d",ary[0]);
+
+getch();
+
+}
+
+Output 1 :
+Enter the five array elements :
+34
+98
+65
+78
+65
+maximum value is 98
+
+Output 2:
+Enter the five array elements : 98
+32
+54
+45
+12
+maximum value is 98
