@@ -1,0 +1,43 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+           int a,b,c;
+           clrscr ();
+
+   printf("enter the value of a and b \n ");
+   scanf("%d %d",&a,&b);
+
+          c=(a+b)*(a+b);
+
+    printf("%d",c);
+
+          c=(a+b)*(a+b)*(a+b);
+
+    printf("\n %d",c);
+
+          c=(a-b)*(a+b);
+
+    printf("\n %d",c);
+
+         c=(a-b)*(a-b)*(a-b);
+
+    printf("\n %d",c);
+
+    getch();
+
+}
+
+
+Output : 
+enter the value of a and b :
+7
+3
+
+ 100
+ 1000
+ 40
+ 64
