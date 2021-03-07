@@ -1,0 +1,22 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  char a[20],target[20];
+  int l=0,i=l;
+  
+  printf("enter yr string :\n");
+  gets(a);
+  
+  while(a[i] != '\0')
+  i++;
+  
+  printf("length =%d",i);
+
+}
+
+enter yr string :
+rahul chaurasiya
+length =16
