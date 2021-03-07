@@ -1,0 +1,23 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+           float f,c;
+           clrscr();
+
+    printf("enter temprature in farhenite:");
+    scanf("%f",&f);
+
+            c=(f-32)/1.8;
+
+    printf("temprature in celcius is :%f",c);
+
+    getch();
+
+}
+
+Output : 
+enter temprature in farhenite : 98
+temprature in celcius is : 36.666668
