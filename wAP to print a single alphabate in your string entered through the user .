@@ -1,0 +1,24 @@
+
+
+#include<stdio.h>
+main()
+{
+   char a[20];
+   int b;
+   
+   printf("enter yr string :");
+   scanf("%s",&a);
+
+   printf (" enter position : ");
+   scanf ("%d",&b);
+
+   printf("%c",a[b-1]);
+
+
+}
+
+
+output :
+enter yr string :rahul
+enter position : 4
+u
