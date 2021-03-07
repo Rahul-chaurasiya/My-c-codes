@@ -1,0 +1,41 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+main()
+{
+     char a[20],b[20];
+     int i,n;
+
+     printf("enter two string  :\n");
+     gets(a);
+     gets(b);
+
+    i=0;
+
+    while(a[i]==b[i]&& a[i]!='\0')
+  {
+     i++;
+     n = a[i]-b[i];
+  } 
+
+    if(a[i]>b[i])
+    printf("a[i] is gerater than b[i] and the difference is %d ",n);
+
+    else if (a[i]<b[i])
+    printf("a[i] is smaller than b[i]  and the difference is %d",n);
+ 
+
+    else if (a[i]-b[i]==0)
+    printf("a[i]=b[i]  and the difference is %d",n);
+
+
+}
+output :
+
+enter two string  :
+hello
+hllo
+a[i] is smaller than b[i]  and the difference is -7
