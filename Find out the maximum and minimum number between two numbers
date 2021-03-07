@@ -1,0 +1,31 @@
+
+
+ 
+
+#include<stdio.h>
+#include<conio.h>
+float main().                           
+{
+
+          int a,b;
+          clrscr();
+
+printf("the value of a and b is \n");
+scanf("%d %d",&a,&b);
+
+if (a>b)
+printf("max no. is %d",a);
+
+else
+printf("max no. is %d",b);
+
+getch();
+
+}
+
+Output : 
+the value of a and b is 
+32
+45
+
+max no. is 45
