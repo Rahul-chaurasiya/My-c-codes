@@ -1,0 +1,33 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+           int a,b;
+           clrscr();
+
+    printf("enter the value of a and b \n");
+    scanf("%d%d",&a,&b);
+    
+    printf("before swiping value of a=%d & b=%d\n"a,b);
+    
+           a=a*b;
+           b=a/b;
+           a=a/b;
+
+    printf("after swiping value of a=%d & b=%d",a,b);
+
+    getch();
+    
+}
+
+
+
+Output : 
+enter the value of a and b
+45
+34
+
+before swiping value of a=45 & b=34
+after swiping value of a=34 & b=45
