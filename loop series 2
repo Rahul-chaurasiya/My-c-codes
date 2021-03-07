@@ -1,0 +1,40 @@
+
+1/! 1 + 2/! 2 + 3/! 3 + ……  
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+ main()
+ {
+
+   float i,a,n,b,fact=1,sum=0;
+
+   printf("enter the value of n :\n");
+   scanf(" %f",&n);
+   
+   for(i=1;i<=n;i++)
+   {
+   fact*=i;
+   a=i/fact;
+   printf(" \n%f",a);
+   sum=sum+a;
+
+   }
+   printf("\nyr value is %f",sum);
+
+
+ }
+
+output :
+enter the value of n :
+6
+
+1.000000
+1.000000
+0.500000
+0.166667
+0.041667
+0.008333
+yr value is 2.716667
