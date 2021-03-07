@@ -1,0 +1,79 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+       int a[100],i,n,b=0,flag,position=0;
+ 
+  printf("enter the size of array ");
+  scanf("%d",&n);
+  printf("enter the elements of array :\n");
+  for(i=0;i<n;i++)
+  {
+    scanf("%d",&a[i]);
+  }
+
+ for (i=0;i<n;i++)
+{  
+  printf("\n the numbers are %d",a[i]);
+}
+
+printf("\n find number ");
+scanf("%d",&b);
+
+  for (i=0;i<n;i++)
+   { if(b==a[i])
+     { flag=1;
+       position=i;
+     }
+   }
+     if (flag==1)
+     printf("\n number found at %dth position",position + 1);
+
+     else
+     printf("\n not found ");
+
+
+}
+
+output 1 :
+enter the size of array 5
+enter the elements of array :
+23
+45
+67
+89
+54
+
+ the numbers are 23
+ the numbers are 45
+ the numbers are 67
+ the numbers are 89
+ the numbers are 54
+
+ find number 67
+
+ number found at 3th position
+
+
+output 2:
+enter the size of array5
+enter the elements of array :
+23
+45
+67
+89
+65
+
+ the numbers are 23
+ the numbers are 45
+ the numbers are 67
+ the numbers are 89
+ the numbers are 65
+
+ find number 32    
+
+ not found 
+
