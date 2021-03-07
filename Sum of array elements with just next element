@@ -1,0 +1,50 @@
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+main() 
+{
+
+       int number[100],i,size,sum=0;
+
+printf("\n Enter the size of an array:");
+scanf("%d",&size);
+
+      for(i=0;i<size;i++)
+      {
+          printf("Enter the number:");
+          scanf ("%d",&number[i]);
+      }
+
+printf("\nThe number are::");      
+       for(i=0;i<size;i++)
+       {
+           sum=sum+number[i];
+           printf("\n %d",sum);
+       }
+
+getch();
+
+}
+
+Output :
+Enter the size of an array:6
+
+Enter the number:2
+Enter the number:4
+Enter the number:6
+Enter the number:3
+Enter the number:8
+Enter the number:7
+
+
+The number are::
+ 2
+ 6
+ 12
+ 15
+ 23
+ 30
