@@ -1,0 +1,25 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+main()
+
+{
+  char a[20];
+  int l=0;
+  
+  printf("enter yr string :\n");
+  gets(a);
+  
+  l= strlen(a);
+  
+  printf("length = %d",l);
+
+}
+
+output :
+enter yr string :
+rahul chaurasiya
+length = 16
