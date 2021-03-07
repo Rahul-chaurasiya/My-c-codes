@@ -1,0 +1,25 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main ()
+{
+   int rem,rn=0,n;
+   
+   printf("enter the number");
+   scanf("%d",&n);
+
+   while (n!=0)
+    {
+    rem=n%10;
+    rn = rn*10+rem;
+    n=n/10;
+    }
+   printf("the reverse of the number is %d", rn);
+
+   
+
+}
+output :
+enter the number34567
+the reverse of the number is 76543
