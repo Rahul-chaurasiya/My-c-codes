@@ -1,0 +1,37 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+      int even=2,i,sum=0,n;
+  
+   printf("how many even no. u want to sum ");
+   scanf("%d",&n);
+
+   printf("all the even no. to %d is ",n);
+
+   for (i=1;i<=n;i++)
+   {
+     if(i%2 == 0)
+      { 
+         printf("\n %d",i);
+      }
+
+         sum=sum+even;
+         even=even+2;
+   }
+   
+   printf("\n sum of even numbers is %d ",even);
+
+
+}
+
+ output: 
+how many even no. u want to sum 9
+all the even no. to 9 is   
+ 2
+ 4
+ 6
+ 8
+ sum of even numbers is 20 
