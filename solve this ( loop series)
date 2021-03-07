@@ -1,0 +1,37 @@
+
+½(x-1)/x + ½(x-1/x) 2 + ½ (x-1/x) 3+…. 
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main(int argc, char const *argv[])
+{
+  int x,n,i;
+  float m,c,y,sum=0;
+
+  printf("enter the value of x and n :");
+  scanf("%d %d",&x,&n);
+
+   c=(x-1.00)/x;   
+    
+  for ( i = 1; i <= n; i++)
+  {
+    y=pow(c,i);
+    printf(" %f",y);
+    sum=sum+y;
+  }
+
+    m=sum/2;
+  printf("\nsum of series = %f",m);
+  return 0;
+
+}
+
+output :
+
+enter the value of x and n :4
+6
+ 0.750000 0.562500 0.421875 0.316406 0.237305 0.177979
+sum of series = 1.233032 
