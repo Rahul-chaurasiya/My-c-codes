@@ -1,0 +1,25 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+          float f,c;
+          clrscr();
+
+    printf("conversion of temperature centigrade to Fahrenheit\n");
+    printf("enter temprature in centigrade:");
+    scanf("%f",&c);
+
+         f=(c*1.8)+32;
+
+    printf("temprature in farhenite is :%f",f);
+
+    getch();
+
+}
+
+Output : 
+conversion of temperature centigrade to Fahrenheit
+enter temprature in centigrade:36
+temprature in farhenite is :96.800003
