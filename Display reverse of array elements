@@ -1,0 +1,59 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+            int a[100],i,n,b,c,sum;
+
+  printf("enter the size of an array :");
+  scanf("%d",&n);
+
+printf("enter the elements of array :\n ");
+
+      for (i=0;i<n;i++)
+      {
+            scanf("%d",&a[i]);
+      }
+      
+ printf("\nyr array is :");
+
+     for (i=0;i<n;i++)
+     {
+         printf("\n%d",a[i]);
+     }
+
+printf("\nreverse of yr array is : ");
+
+      for (i=n-1;i>=0;i--)
+     {
+         printf("\n %d",a[i]);
+     }
+     
+getch();
+
+}
+
+Output : 
+
+enter the size of an array :5
+enter the elements of array :
+23
+45
+67
+54
+98
+
+yr array is :
+23
+45
+67
+54
+98
+
+reverse of yr array is :
+ 98
+ 54
+ 67
+ 45
+ 23
