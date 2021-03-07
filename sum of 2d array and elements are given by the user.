@@ -1,0 +1,82 @@
+ 
+
+#include<stdio.h>
+int main ()
+{
+
+   int a[3][3],b[3][3],i,j,sum[3][3];
+   
+   printf("elements of 1st array is : \n");
+   for ( i = 0; i < 3; i++)
+   {
+     for ( j = 0; j < 3 ; j++)
+     {
+         scanf("%d",&a[i][j]);
+     }
+    
+   }
+
+    printf("elements of 2nd array is : \n");    
+     for ( i = 0; i < 3; i++)
+   {
+     for ( j = 0; j < 3 ; j++)
+     {
+         scanf("%d",&b[i][j]);
+     }
+     
+   }
+   
+    printf("sum of matrix is \n");
+
+      for ( i = 0; i < 3; i++)
+   {
+     for ( j = 0; j < 3 ; j++)
+     {
+      sum[i][j]=a[i][j]+b[i][j];   
+     }
+     
+   }
+
+
+   
+  for ( i = 0; i < 3; i++)
+   {
+     for ( j = 0; j < 3 ; j++)
+     {
+         
+         printf(" %d",sum[i][j]);
+     }
+     
+         printf("\n");
+   }
+
+
+
+
+}
+
+output :
+elements of 1st array is : 
+1
+2
+3
+1
+2
+3
+1
+2
+3
+elements of 2nd array is : 
+1
+2
+3
+1 
+2
+3
+1
+2
+3
+sum of matrix is 
+ 2 4 6
+ 2 4 6
+ 2 4 6
