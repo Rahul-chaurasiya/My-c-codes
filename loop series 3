@@ -1,0 +1,40 @@
+
+S= 1 + x ¹+ x²+ x³+ …. + x^n
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+main()
+{
+   int a,b,n,i,x,sum=0;
+
+   printf("enter the value of x :\n");
+   scanf("%d",&x);
+
+   printf("enter the value of n :\n");
+   scanf("%d",&n);
+   
+   printf("yr series is 1");
+   for ( i = 1; i <= n; i++)
+   {
+     a=pow(x,i);
+     sum+=a;
+
+     printf(", %d",a);
+   }
+   
+   b=1+sum;
+   printf("\n\nsolution of your series is %d",b);
+
+
+}
+
+output :
+enter the value of x :
+5
+enter the value of n :
+4
+yr series is 1, 5, 25, 125, 625
+
+solution of your series is 781
