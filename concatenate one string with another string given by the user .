@@ -1,0 +1,40 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  char source[20],source1[20];
+  int i=0,j=0;
+
+  printf("enter the 1st string :\n");
+  scanf("%s",source);
+
+  printf("enter the 2nd string :\n");
+  scanf("%s",source1);
+
+  while(source[i] != '\0')
+  
+    i++;
+    
+    while(source1[j] != '\0')
+    {
+     source[i]=source1[j];
+     i++;
+     j++;
+    }
+    
+  
+    source[i]='\0';
+  
+  printf(" string after concatenation %s", source);
+  
+  
+
+}
+
+enter the 1st string :
+rahul
+enter the 2nd string :
+chaurasiya
+ string after concatenation rahulchaurasiya
