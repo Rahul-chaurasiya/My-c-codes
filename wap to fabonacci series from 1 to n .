@@ -1,0 +1,31 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+ main ()
+{
+   int prev1,prev2,sum=0,i,n;
+ 
+ 
+   printf("enter the length of fibonacci series ");
+   scanf("%d",&n);
+
+   prev1=0;
+   prev2=1;
+
+   printf("%d%d",prev1,prev2);
+   for (i=1;i<=(n-2);i++)
+   {
+     sum=prev1+prev2;
+     printf(" %d",sum);
+     prev1=prev2;
+     prev2=sum;
+   }
+
+  
+}
+
+output 1:
+enter the length of fibonacci series 7
+01 1 2 3 5 8             
