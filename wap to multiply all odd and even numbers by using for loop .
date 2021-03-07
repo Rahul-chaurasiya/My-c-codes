@@ -1,0 +1,38 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+ main ()
+{
+   int mul1=1,mul2=1,i,n;
+   
+   printf("enter a number :");
+   scanf("%d",&n);
+
+   for(i=1;i<=n;i++)
+   {
+   
+     if (i%2== 0)
+      {
+           mul1=mul1*i;
+      }
+
+     else
+      {
+           mul2=mul2*i;
+      }
+
+   }
+
+    printf("mul of all even number is %d",mul1);
+
+    printf("\nmul of all odd number is %d",mul2);
+
+   
+}
+
+output : 
+enter a number :7
+mul of all even number is 48
+mul of all odd number is 105
+
