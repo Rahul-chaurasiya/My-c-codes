@@ -1,0 +1,39 @@
+
+
+  #include<stdio.h>
+  #include<conio.h>
+  void main ()
+{
+   int a;
+   clrscr ();
+
+   printf("enter the number \n ");
+   scanf("%d",&a);
+
+   if (a > 0)
+   printf("the no. is positive");
+
+   else if(a<0)
+   printf("the no. is negetive");
+
+   else
+   printf("it is zero");
+     
+   getch ();
+   
+}
+
+  output 1:
+  enter the number
+  45
+  the no. is positive
+
+Output 2: 
+enter the number
+ -56
+the no. is negetive
+
+Output 3:
+enter the number
+ 0
+it is zero
