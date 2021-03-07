@@ -1,0 +1,32 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+ main ()
+{
+   int add1=0,add2=0,i,n;
+   
+   printf("enter a number ");
+   scanf("%d",&n);
+
+   for(i=1;i<=n;i++)
+   {
+    if (i%2== 0)
+   { add1=add1+i;}
+
+    else
+   { add2=add2+i;}
+
+   }
+    printf("add of all even number is %d",add1);
+    printf("\nadd of all odd number is %d",add2);
+
+   
+
+   }
+
+output :
+enter a number 9
+add of all even number is 20
+add of all odd number is 25
