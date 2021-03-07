@@ -1,0 +1,34 @@
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+          int a;
+         clrscr();
+
+    printf("enter the no. :");
+    scanf("%d",&a);
+
+    if (a%2 == 0)
+    printf("no. is even ");
+
+    else
+    printf("no. is odd");
+
+    getch();
+
+}
+
+Output 1 :
+enter the no. :65
+no. is odd
+
+Output 2 :
+enter the no. :98
+no. is even
+
