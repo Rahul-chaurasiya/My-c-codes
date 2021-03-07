@@ -1,0 +1,110 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+      int a,b,c,choice;
+    
+      printf("\n 1 arthemetic operater ");
+      printf("\n 2 modulo operater ");
+      printf("\n 3 relational operater ");
+      printf("\n 4 logical operater ");
+
+      printf("\n select an option :");
+      scanf("%d",&choice);
+
+
+      switch (choice)
+      {
+         case 1 : printf("enter the value of a and b is :");
+                  scanf("%d %d",&a,&b);
+                  c=a+b;
+                  printf("the value of a+b is : %d",c);
+                  break;
+
+         case 2 : printf("enter the value of a and b is :");
+                  scanf("%d %d",&a,&b);
+                  c=a%b;
+                  printf("the value of a%b is : %d",c);
+                  break;
+
+         case 3 : printf("two no. is a and b is ");
+                  scanf("%d%d",&a,&b);
+                  if(a>b)       {
+                  printf("\n max. = %d",a);
+                  printf("\n min. = %d",b);}
+                  else  
+                  {
+                     printf("\n max. = %d",b);
+                     printf("\n min. = %d",a); 
+                  }
+                  break;
+
+         case 4 :   int lower ,upper;
+                    char ch;
+    
+                   printf("enter any character ");
+                   scanf(" %c",&ch);
+
+                   lower=(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u');
+
+                   upper=(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U');
+
+                   if ( lower||upper )
+                   printf("\nit is a vowel");
+
+                   else
+                   printf("\nit is consonent");
+                   break;
+
+         default : printf("u choose wrong ");
+
+
+    }
+
+    
+}
+
+output 1 :
+ 1 arthemetic operater
+ 2 modulo operater
+ 3 relational operater
+ 4 logical operater
+ select an option :1
+enter the value of a and b is :2
+67
+the value of a+b is : 69
+
+output 2:
+ 1 arthemetic operater
+ 2 modulo operater
+ 3 relational operater
+ 4 logical operater
+ select an option :2
+enter the value of a and b is :2
+5
+the value of ab is : 2
+
+output 3:
+ 1 arthemetic operater
+ 2 modulo operater
+ 3 relational operater
+ 4 logical operater
+ select an option :3
+two no. is a and b is 23
+45
+
+ max. = 45
+ min. = 23     
+
+output 4:
+ 1 arthemetic operater
+ 2 modulo operater
+ 3 relational operater
+ 4 logical operater
+ select an option :4
+enter any character s
+
+it is consonent
