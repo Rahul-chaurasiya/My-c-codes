@@ -1,0 +1,65 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+    char ch;
+    
+    printf("enter any character ");
+    scanf("%c",&ch);
+    if ( ch>= 32 && ch <= 47)
+       {  
+        printf("it is special symbol");
+       }
+
+    else if (ch>=58 && ch <= 64 )
+       { 
+        printf("it is special symbol");
+       }
+
+    else if (ch>= 91 && ch<= 96)
+       {  
+        printf("it is special symbol");
+       }
+
+    else if (ch>=123 && ch <= 126)
+       {  
+        printf("it is special symbol");
+       }
+
+    else if (ch>= 97 && ch<= 122)
+       {  
+ printf("it is a lower case alphabate");
+       }
+
+    else if (ch >=65 && ch <= 90 )
+       {  
+ printf("it is an upper case alphabate");
+       }
+
+    else if (ch >= 48 && ch <= 57)
+       {
+        printf("it ia a number ");
+       }
+
+       
+
+}
+
+output 1:
+enter any character 7
+it is a number
+
+output 2 :
+enter any character r
+it is a lower case alphabate
+
+output 3 :
+enter any character A
+it is an upper case alphabate 
+
+output 4 :
+enter any character @
+it is special symbol
