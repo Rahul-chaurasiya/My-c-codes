@@ -1,0 +1,26 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{   
+    char a[20];
+    int i=0;
+
+   printf("enter your string ");
+   scanf("%s",a);
+
+   while(a[i] != '\0')
+ { 
+   i++;
+ }  
+   printf("%s",a);
+
+}
+
+output :
+
+enter your string rahul
+rahul
+
+ 
