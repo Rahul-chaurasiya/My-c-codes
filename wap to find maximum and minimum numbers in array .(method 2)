@@ -1,0 +1,73 @@
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ 
+   int a[10],b,i,c,n,x[10];
+   
+   printf("enter the size of an array :\n");
+   scanf("%d",&n);
+
+   printf("enter the elements of yr array :\n");
+   for(i=0;i< n;i++)
+   {
+     scanf("%d",&a[i]);
+   }
+   
+   printf("\nyr array is :\n");
+   for(i=0;i< n;i++)
+   {
+     x[i]=a[i];
+     printf("  %d",a[i]);
+   }
+  
+   
+    
+   printf("\n\nfor min. max ");
+   for(i=0;i<n;i++)
+   {
+    if(a[i]>a[i+1])
+    {
+      b=a[i];
+      a[i+1]=b;
+      
+    }
+   }
+     if(b<a[n-1])
+     b=a[n-1];
+
+   for(i=0;i< n;i++)
+   {
+    if(x[i]<x[i+1])
+    {
+      c=x[i];
+       x[i+1]=c;
+    }
+   }
+  
+   printf("\nmax. no is %d",b);
+   printf("\nmin. no is %d",c);
+
+
+}
+
+output :
+
+enter the size of an array :
+6
+enter the elements of yr array :
+45
+21
+34
+09
+78
+67
+
+yr array is :
+  45  21  34  9  78  67
+
+for min. max
+max. no is 78
+min. no is 9
