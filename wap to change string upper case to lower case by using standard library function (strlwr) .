@@ -1,0 +1,25 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+
+{
+   char a[20];
+   printf("enter your string in upper case :\n");
+   gets(a);
+   printf("your string is :");
+   puts(a);
+   
+   strlwr(a);
+   printf("string in lower case %s",a);
+
+}
+
+output :
+
+enter your string in upper case :
+RAHUL
+your string is :RAHUL
+string in lower case rahul
