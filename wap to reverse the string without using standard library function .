@@ -1,0 +1,36 @@
+
+
+
+#include<stdio.h>
+main()
+{
+   char a[20];
+   int i=0,b,n,x;
+
+   printf("enter your string " );
+   gets(a);
+  
+  while (a[i] != '\0')
+  {
+     i++;
+  }
+    x=i;
+    
+
+    printf("reverse of your string is :\n");
+
+    for(x=i ; x != 0 ;x--)
+    
+    {
+       printf("%c",a[x-1]);
+       
+    }
+    
+   
+}
+
+output :
+
+enter your string rahul
+reverse of your string is :
+luhar
