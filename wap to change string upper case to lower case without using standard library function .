@@ -1,0 +1,31 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+
+  char a[20];
+  int x,i=0,n;
+
+  printf("enter yr string ");
+  gets(a);
+
+  puts(a);
+
+while(a[i] != '\0')
+{
+  a[i]= a[i]+32;
+  i++;
+}
+ 
+ printf("lower case string %s",a);
+
+
+}
+
+output :
+
+enter yr string RAHUL
+RAHUL
+lower case string rahul
