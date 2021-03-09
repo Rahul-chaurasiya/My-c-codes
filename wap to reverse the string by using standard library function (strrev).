@@ -1,0 +1,23 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+main()
+
+{
+  char a[20];
+
+  printf("enter the string :");
+  scanf("%s",a);
+
+  printf("string before strrev() : %s",a);
+  printf("\nstring after strrev() %s",strrev(a));
+
+}
+
+output :
+
+enter the string :rahul
+string before strrev() : rahul
+string after strrev() luhar
